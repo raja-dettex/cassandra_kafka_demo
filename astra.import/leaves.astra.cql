@@ -1,0 +1,27 @@
+
+CREATE TABLE IF NOT EXISTS keyspace_name.table_name(
+        is_archived int, 
+        all list<text>, 
+        is_starred int, 
+        user_name text, 
+        user_email text, 
+        user_id int, 
+        tags list<text>, 
+        slugs list<text>, 
+        is_public boolean, 
+        id text, 
+        title text,
+        url text, 
+        content_text text, 
+        created_at timestamp, 
+        updated_at timestamp, 
+        mimetype text, 
+        language text, 
+        reading_time int, 
+        domain_name text, 
+        preview_picture text, 
+        http_status text, 
+        links list<text>, 
+        content text,
+        PRIMARY KEY (id)
+    );
